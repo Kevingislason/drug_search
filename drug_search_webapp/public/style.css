@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+.result {
+  background-color: lightgray;
+  min-height: 4rem;
+  min-width: 40rem;
+  max-width: 40rem;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+  margin: 1rem;
+  display: table;
+}
+
+.result-link {
+  min-width: 40rem;
+  max-width: 40rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.drug-category {
+  display: inline;
+  margin: auto;
+  text-align: center;
+
+  vertical-align: middle;
+  color: red;
+  margin-left: 0.5rem;
+}
+
+.mechanism-label {
+  display: inline;
+  margin: auto;
+  text-align: center;
+
+  vertical-align: middle;
+  color: blue;
+  margin-left: 0.5rem;
+}
+
+#search-input {
+  width: 50%;
+  height: 1.5rem;
+}
